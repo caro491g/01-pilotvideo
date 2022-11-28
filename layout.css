@@ -1,0 +1,43 @@
+/*************** Reset *********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** Header *********************/
+header {
+  position: sticky;
+  padding: 2rem 3rem;
+  background-color: #007fff;
+}
+
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  gap: 50px;
+}
+
+nav ul a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ffa9f6;
+}
+
+a:hover {
+  color: #3ddc97;
+}
